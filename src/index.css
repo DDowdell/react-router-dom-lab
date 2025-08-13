@@ -67,8 +67,6 @@ button:focus-visible {
   }
 }
 
-/* src/index.css */
-
 body {
   padding: 16px;
   display: flex;
@@ -91,8 +89,12 @@ li {
 }
 
 .mail-box {
+  display: flex;
+  margin-top: 10px;
+  max-width: 50px;
   border: 2px solid white;
   padding: 20px;
+  justify-content: center;
 }
 
 form {
